@@ -46,7 +46,7 @@ def image_uploader():
         st.write("Please upload a hotdog image file.")
 
 # model_path = "./MobileNet.h5"  
-model_path_net = 'MobileNet.h5'
+model_path_net = 'model.h5'
 model = load_model(model_path_net)
 
 uploaded_image = image_uploader()
